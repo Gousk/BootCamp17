@@ -44,6 +44,10 @@ Sprint sonunda  puan tamamlandı, 30 puan rejected.
 - **Sprint board update**: Sprint board screenshot: 
 ![image](https://github.com/user-attachments/assets/ef956ba9-b5d2-4ba4-8125-8b0b6bfaef0f)
 
+<details> <summary><h3>Ürün Durumu: Ekran Görüntüleri</h3></summary>
+  
+https://github.com/user-attachments/assets/f555f746-6fd3-4ef6-beab-a281479d479c
+![image](https://github.com/user-attachments/assets/1ffb42ea-0a6c-4a03-984a-f71b42c55732)
 
 
 
