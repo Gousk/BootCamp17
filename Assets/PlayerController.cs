@@ -1,89 +1,118 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
     [Header("References")]
-    public Rigidbody hipRigidbody;    // Drag: RagdollRoot/Hips Rigidbody
-    public Transform ragdollRoot;     // Drag: RagdollRoot
-    public Transform yawPivot;        // Drag: yawPivot
-    public Transform pitchPivot;      // Drag: pitchPivot
-    public Camera playerCamera;     // Drag: MainCamera
+    public Rigidbody hipRigidbody;    // RagdollRoot/Hips Rigidbody
+    public Transform ragdollRoot;     // RagdollRoot for turning the body
+    public Transform yawPivot;        // CameraYawPivot
+    public Transform pitchPivot;      // CameraPitchPivot
+    public Camera playerCamera;       // MainCamera
+    public Animator animator;         // Animator with "isMoving" bool parameter
+
+    [Header("Joints")]
+    public ConfigurableJoint hipJoint;        // pelvis joint drive
+    public ConfigurableJoint stomachJoint;    // chest/spine joint drive
 
     [Header("Camera Settings")]
     public float mouseSensitivity = 3f;
     public float minPitch = -30f;
     public float maxPitch = 60f;
-    public float cameraDistance = 5f;    // local Z of MainCamera
-    public float cameraHeight = 2f;    // local Y of pitchPivot
+    public float cameraDistance = 5f;
+    public float cameraHeight = 2f;
     public float smoothSpeed = 10f;
+
+    [Header("Movement Settings")]
+    public float moveForce = 200f;
+    public float maxSpeed = 5f;
+    public float rotationSpeed = 10f;
 
     float yaw;
     float pitch;
 
-    [Header("Movement Settings")]
-    public float moveForce = 200f;   // to hipRigidbody
-    public float maxSpeed = 5f;   // horizontal cap
-    public float rotationSpeed = 10f;   // how fast ragdollRoot turns
+    // store the joints' starting rotations so we can apply mouse deltas on top
+    Quaternion hipInitTargetRot;
+    Quaternion stomachInitTargetRot;
 
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
+
+        // align our yaw accumulator
         yaw = yawPivot.eulerAngles.y;
+
+        // cache the joints' initial targetRotation
+        if (hipJoint != null) hipInitTargetRot = hipJoint.targetRotation;
+        if (stomachJoint != null) stomachInitTargetRot = stomachJoint.targetRotation;
     }
 
     void Update()
     {
-        // Camera orbit input
-        yaw += Input.GetAxis("Mouse X") * mouseSensitivity;
-        pitch = Mathf.Clamp(
-                    pitch - Input.GetAxis("Mouse Y") * mouseSensitivity,
-                    minPitch, maxPitch
-                 );
+        // read raw mouse deltas
+        float deltaX = Input.GetAxis("Mouse X") * mouseSensitivity;
+        float deltaY = Input.GetAxis("Mouse Y") * mouseSensitivity;
+
+        // update our orbit angles
+        yaw += deltaX;
+        pitch = Mathf.Clamp(pitch - deltaY, minPitch, maxPitch);
+
+        // drive the pelvis yaw
+        if (hipJoint != null)
+            hipJoint.targetRotation = hipInitTargetRot *
+                Quaternion.Euler(0f, -deltaX, 0f);
+
+        // drive the chest pitch
+        if (stomachJoint != null)
+            stomachJoint.targetRotation = stomachInitTargetRot *
+                Quaternion.Euler(-deltaY, 0f, 0f);
     }
 
     void LateUpdate()
     {
-        // 1) Reposition camera pivots at the hip
+        // follow the hip position
         Vector3 hipPos = hipRigidbody.position;
         yawPivot.position = hipPos;
         pitchPivot.position = hipPos + Vector3.up * cameraHeight;
 
-        // 2) Rotate pivots
+        // orbit pivots
         yawPivot.rotation = Quaternion.Euler(0f, yaw, 0f);
         pitchPivot.localRotation = Quaternion.Euler(pitch, 0f, 0f);
 
-        // 3) Pull camera back & smooth
-        Vector3 camLocalOffset = new Vector3(0f, 0f, -cameraDistance);
-        Vector3 desiredCamPos = pitchPivot.TransformPoint(camLocalOffset);
+        // smooth camera pull‐back
+        Vector3 desiredCamPos = pitchPivot.TransformPoint(Vector3.back * cameraDistance);
         playerCamera.transform.position = Vector3.Lerp(
             playerCamera.transform.position,
             desiredCamPos,
             smoothSpeed * Time.deltaTime
         );
 
-        // 4) Always look at upper body
+        // look at the upper body
         playerCamera.transform.LookAt(hipPos + Vector3.up * 1.5f);
 
-        // 5) Snap ragdollRoot position to the hip
+        // snap ragdollRoot for movement rotation
         ragdollRoot.position = hipPos;
     }
 
     void FixedUpdate()
     {
-        // Movement input
+        // get movement input
         float h = Input.GetAxis("Horizontal");
         float v = Input.GetAxis("Vertical");
-        Vector3 input = new Vector3(h, 0, v);
+        Vector3 input = new Vector3(h, 0f, v);
         if (input.sqrMagnitude > 1f) input.Normalize();
 
-        if (input.sqrMagnitude > 0.01f)
+        // update animator parameter
+        bool isMoving = input.sqrMagnitude > 0.01f;
+        animator.SetBool("isMoving", isMoving);
+
+        if (isMoving)
         {
-            // a) Compute world move dir from camera yaw
-            Vector3 forward = yawPivot.forward; forward.y = 0; forward.Normalize();
-            Vector3 right = yawPivot.right; right.y = 0; right.Normalize();
+            // camera-relative move dir
+            Vector3 forward = yawPivot.forward; forward.y = 0f; forward.Normalize();
+            Vector3 right = yawPivot.right; right.y = 0f; right.Normalize();
             Vector3 moveDir = (forward * v + right * h).normalized;
 
-            // b) Rotate ragdollRoot toward moveDir
+            // face movement direction
             Quaternion targetRot = Quaternion.LookRotation(moveDir);
             ragdollRoot.rotation = Quaternion.Slerp(
                 ragdollRoot.rotation,
@@ -91,19 +120,19 @@ public class PlayerController : MonoBehaviour
                 rotationSpeed * Time.fixedDeltaTime
             );
 
-            // c) Apply force to hip
+            // apply physics force
             hipRigidbody.AddForce(
                 moveDir * moveForce * Time.fixedDeltaTime,
                 ForceMode.VelocityChange
             );
         }
 
-        // Speed cap
+        // clamp horizontal speed
         Vector3 vel = hipRigidbody.linearVelocity;
-        Vector3 flatV = new Vector3(vel.x, 0, vel.z);
-        if (flatV.magnitude > maxSpeed)
+        Vector3 flat = new Vector3(vel.x, 0f, vel.z);
+        if (flat.magnitude > maxSpeed)
         {
-            Vector3 clamped = flatV.normalized * maxSpeed;
+            Vector3 clamped = flat.normalized * maxSpeed;
             hipRigidbody.linearVelocity = new Vector3(clamped.x, vel.y, clamped.z);
         }
     }
