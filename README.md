@@ -11,10 +11,10 @@
 
 | <div align="center">Name</div>   | <div align="center">Title</div>  | <div align="center">Socials</div>     |
 | :---------- | :---------- | :----------: |
-| Önder Balta   | Product Owner     | (https://www.linkedin.com/in/onderbalta/)  | 
+| Önder Balta   | Product Owner     | (https://www.linkedin.com/in/onderbalta)  | 
 | Coşku Naz Coşkuner     | Scrum Master     | (www.linkedin.com/in/coşku-naz-coşkuner) |
-| Berkcan Ertürk     | Developer      | (https://www.linkedin.com/in/berkcan-ert%C3%BCrk-9344a7163/)   |
-| İklim Apaydın      | Developer     |  (https://www.linkedin.com/in/iklim-apayd%C4%B1n-88b116253/)    |
+| Berkcan Ertürk     | Developer      | (https://www.linkedin.com/in/berkcan-ert%C3%BCrk)   |
+| İklim Apaydın      | Developer     |  (https://www.linkedin.com/in/iklim-apayd%C4%B1n)    |
 
 ## Oyun İsmi
 
@@ -42,7 +42,8 @@ Sprint sonunda  puan tamamlandı, 30 puan rejected.
 - **Daily Scrum**: [Sprint 1 - Daily Scrum Chats](https://imgur.com/a/7ZpaPFQ)
 
 - **Sprint board update**: Sprint board screenshot: 
-![Backlog 1]() 
+![image](https://github.com/user-attachments/assets/ef956ba9-b5d2-4ba4-8125-8b0b6bfaef0f)
+
 
 
 
