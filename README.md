@@ -4,16 +4,16 @@
 
 ## **Takım Logosu**
 
-![Logo](blob:https://web.whatsapp.com/5d45c959-2a7e-451a-a279-1d86f7064e36)
+(blob:https://web.whatsapp.com/5d45c959-2a7e-451a-a279-1d86f7064e36)
 
 ## Takım Elemanları
 
 | <div align="center">Name</div>   | <div align="center">Title</div>  | <div align="center">Socials</div>     |
 | :---------- | :---------- | :----------: |
-| Önder Balta   | Product Owner     | [![linkedin](https://www.linkedin.com/in/onderbalta?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)  | 
-| Coşku Naz Coşkuner     | Scrum Master     |  [![linkedin](www.linkedin.com/in/coşku-naz-coşkuner) |
-| Berkcan Ertürk     | Developer      |  [![linkedin](https://www.linkedin.com/in/berkcan-ert%C3%BCrk-9344a7163?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)   |
-| İklim Apaydın      | Developer     |    [![linkedin](https://www.linkedin.com/in/iklim-apayd%C4%B1n-88b116253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)    |
+| Önder Balta   | Product Owner     | (https://www.linkedin.com/in/onderbalta?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)  | 
+| Coşku Naz Coşkuner     | Scrum Master     | (www.linkedin.com/in/coşku-naz-coşkuner) |
+| Berkcan Ertürk     | Developer      | (https://www.linkedin.com/in/berkcan-ert%C3%BCrk-9344a7163?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)   |
+| İklim Apaydın      | Developer     |  (https://www.linkedin.com/in/iklim-apayd%C4%B1n-88b116253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)    |
 
 ## Oyun İsmi
 
