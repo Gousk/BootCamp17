@@ -8,12 +8,12 @@
 
 ## Takım Elemanları
 
-|    | <div align="center">Name</div>   | <div align="center">Title</div>  | <div align="center">Socials</div>     |
-| :-----------: | :---------- | :---------- | :----------: |
-|   | Önder Balta   | Product Owner     | [![linkedin](https://www.linkedin.com/in/onderbalta?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)  | 
-|  ![CoskuPhoto](blob:https://web.whatsapp.com/0d11dfaa-7a5c-4093-942e-35468825b62f)    | Coşku Naz Coşkuner     | Scrum Master     |  [![linkedin](www.linkedin.com/in/coşku-naz-coşkuner) |
-|    | Berkcan Ertürk     | Developer      |  [![linkedin](https://www.linkedin.com/in/berkcan-ert%C3%BCrk-9344a7163?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)   |
-|     | İklim Apaydın      | Developer     |    [![linkedin](https://www.linkedin.com/in/iklim-apayd%C4%B1n-88b116253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)    |
+| <div align="center">Name</div>   | <div align="center">Title</div>  | <div align="center">Socials</div>     |
+| :---------- | :---------- | :----------: |
+| Önder Balta   | Product Owner     | [![linkedin](https://www.linkedin.com/in/onderbalta?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)  | 
+| Coşku Naz Coşkuner     | Scrum Master     |  [![linkedin](www.linkedin.com/in/coşku-naz-coşkuner) |
+| Berkcan Ertürk     | Developer      |  [![linkedin](https://www.linkedin.com/in/berkcan-ert%C3%BCrk-9344a7163?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)   |
+| İklim Apaydın      | Developer     |    [![linkedin](https://www.linkedin.com/in/iklim-apayd%C4%B1n-88b116253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)    |
 
 ## Oyun İsmi
 
