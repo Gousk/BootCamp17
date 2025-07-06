@@ -13,8 +13,8 @@
 | :---------- | :---------- | :----------: |
 | Önder Balta   | Product Owner     | (https://www.linkedin.com/in/onderbalta)  | 
 | Coşku Naz Coşkuner     | Scrum Master     | (www.linkedin.com/in/coşku-naz-coşkuner) |
-| Berkcan Ertürk     | Developer      | (https://www.linkedin.com/in/berkcan-ert%C3%BCrk)   |
-| İklim Apaydın      | Developer     |  (https://www.linkedin.com/in/iklim-apayd%C4%B1n)    |
+| Berkcan Ertürk     | Developer      | (https://www.linkedin.com/in/berkcan-ertürk)   |
+| İklim Apaydın      | Developer     |  (https://www.linkedin.com/in/iklim-apaydın)    |
 
 ## Oyun İsmi
 
