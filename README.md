@@ -1,6 +1,6 @@
 ## **Takım İsmi**
 
-**C4MPERS** 
+**C4MPERS** (Takım 17)
 
 ## **Takım Logosu**
 
@@ -29,20 +29,19 @@
 - **Sprint içinde tamamlanması tahmin edilen puan**: 200 Puan
 
 - **Puan tamamlama mantığı**:
-Sprint başında: 225 puanlık iş backlog’a alındı.
+Sprint başında 225 puanlık iş backlog’a alındı.
 
 1.hafta sonunda 35 puanlık iş tamamlandı.
 
-2.hafta sonunda  puanlık iş tamamlandı.
+2.hafta sonunda 110 puanlık iş tamamlandı.
 
-Sprint sonunda  puan tamamlandı, 30 puan rejected.
-
-- **Backlog düzeni ve Story seçimleri**: 
+Sprint sonunda  145 puan tamamlandı, 30 puan rejected.
 
 - **Daily Scrum**: [Sprint 1 - Daily Scrum Chats](https://imgur.com/a/7ZpaPFQ)
 
 - **Sprint board update**: Sprint board screenshot: 
-![image](https://github.com/user-attachments/assets/ef956ba9-b5d2-4ba4-8125-8b0b6bfaef0f)
+![image](https://github.com/user-attachments/assets/f367df5d-ff28-4331-ac46-507a82ee1445)
+
 
 <details> <summary><h3>Ürün Durumu: Ekran Görüntüleri</h3></summary>
   
@@ -54,8 +53,16 @@ https://github.com/user-attachments/assets/f555f746-6fd3-4ef6-beab-a281479d479c
   </details>
 
 - **Sprint Review**: 
+- Oyunun temel mekaniklerine, low poly bir temada olmasına karar verildi.
+- Temel fizik mekanikleri, oynanabilir karakterlerin hareket mekanikleri ve hareket animasyonları eklendi. 
+- Karakter tasarımları demo karakterin takım tarafından daha çok beğenilmesi ve kullanılması zaman kazandıracağı için iptal edildi.
   
 
-- **Sprint Retrospective:** 
+- **Sprint Retrospective:**
+- Trello ve diğer araçların daha aktif kullanılması gerektiğine karar verildi.
+- Verimliliği artırmak adına haftalık toplantıların yanı sıra kısa daily scrumlar yapılmasına karar verildi.
+- Bu sprintte geliştirilen fikirleri hayata geçirmek adına gelecek sprint development kısmına odak alınmasına karar verildi.
+- Görevlerin takibinin daha kolay yapılması adına deadlineların sıklaştırılmasına karar verildi.
+- Takım tebrik edildi ve çalışmaları için teşekkür edildi.
 
 
