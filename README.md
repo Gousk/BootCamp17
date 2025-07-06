@@ -45,7 +45,7 @@ Sprint sonunda  145 puan tamamlandı, 30 puan rejected.
 
 <details> <summary><h3>Ürün Durumu: Ekran Görüntüleri</h3></summary>
   
-https://github.com/user-attachments/assets/f555f746-6fd3-4ef6-beab-a281479d479c
+https://github.com/user-attachments/assets/f555f746-6fd3-4ef6-beab-a281479d479c \n
 ![image](https://github.com/user-attachments/assets/1ffb42ea-0a6c-4a03-984a-f71b42c55732)
 
 
