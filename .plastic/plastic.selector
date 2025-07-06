@@ -1,4 +1,0 @@
-repository "BootCamp17/BootCamp17@18968301199048@cloud"
-  path "/"
-    br "/main"
-    co "/main"
