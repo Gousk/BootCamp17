@@ -53,16 +53,16 @@ Sprint sonunda  145 puan tamamlandı, 30 puan rejected.
   </details>
 
 - **Sprint Review**: 
-- Oyunun temel mekaniklerine, low poly bir temada olmasına karar verildi.
-- Temel fizik mekanikleri, oynanabilir karakterlerin hareket mekanikleri ve hareket animasyonları eklendi. 
-- Karakter tasarımları demo karakterin takım tarafından daha çok beğenilmesi ve kullanılması zaman kazandıracağı için iptal edildi.
-  
+  - Oyunun temel mekaniklerine, low poly bir temada olmasına karar verildi.
+  - Temel fizik mekanikleri, oynanabilir karakterlerin hareket mekanikleri ve hareket animasyonları eklendi. 
+  - Karakter tasarımları demo karakterin takım tarafından daha çok beğenilmesi ve kullanılması zaman kazandıracağı için iptal edildi.
+    
 
 - **Sprint Retrospective:**
-- Trello ve diğer araçların daha aktif kullanılması gerektiğine karar verildi.
-- Verimliliği artırmak adına haftalık toplantıların yanı sıra kısa daily scrumlar yapılmasına karar verildi.
-- Bu sprintte geliştirilen fikirleri hayata geçirmek adına gelecek sprint development kısmına odak alınmasına karar verildi.
-- Görevlerin takibinin daha kolay yapılması adına deadlineların sıklaştırılmasına karar verildi.
-- Takım tebrik edildi ve çalışmaları için teşekkür edildi.
-
-
+  - Trello ve diğer araçların daha aktif kullanılması gerektiğine karar verildi.
+  - Verimliliği artırmak adına haftalık toplantıların yanı sıra kısa daily scrumlar yapılmasına karar verildi.
+  - Bu sprintte geliştirilen fikirleri hayata geçirmek adına gelecek sprint development kısmına odak alınmasına karar verildi.
+  - Görevlerin takibinin daha kolay yapılması adına deadlineların sıklaştırılmasına karar verildi.
+  - Takım tebrik edildi ve çalışmaları için teşekkür edildi.
+  
+  
