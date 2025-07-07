@@ -22,14 +22,14 @@
 
 ---
 
-# Sprint 1
+# 1. Sprint 
 
 - **Sprint Notları**:İlk sprintte öncelik; gerçekleştirilebilir, eğlenceli ve pazarlanabilir bir oyun fikri geliştirmek ile bu fikri özgünleştirecek eklentiler ve oyun mekanikleri tasarlamak olarak belirlendi. Bu kısa sprintte takımdaki çoğunluğun kişisel takviminden dolayı hızlı bir başlangıç tercih edilmedi. Tempo ve görev dağılımından dolayı daily scrum yerine oy birliği ile haftalık toplantılar üzerinden ilerlemeye karar kılındı.
 
-- **Sprint içinde tamamlanması tahmin edilen puan**: 200 Puan
+- **Tahmin Edilen Tamamlanacak Puan**: 200 Puan
 
-- **Puan tamamlama mantığı**:
-Sprint başında 225 puanlık iş backlog’a alındı.
+- **Tahmin mantığı**:
+Sprint başında 225 puanlık iş backlog’a alındı.Puanlama balogların zorluğuna göre yapıldı.Puanlar Trello'ya eklendi.
 
 1.hafta sonunda 35 puanlık iş tamamlandı.
 
@@ -39,11 +39,12 @@ Sprint sonunda  145 puan tamamlandı, 30 puan rejected.
 
 - **Daily Scrum**: [Sprint 1 - Daily Scrum Chats](https://imgur.com/a/7ZpaPFQ)
 
-- **Sprint board update**: Sprint board screenshot: 
+- **Sprint Board Updates**: Sprint board screenshot: 
 ![image](https://github.com/user-attachments/assets/f367df5d-ff28-4331-ac46-507a82ee1445)
+link:https://trello.com/invite/b/6855b183a654f8e5ec559f3d/ATTI62ecc82dba9f1124149afb21c83ea097C32EEA8F/bootcamp-process
 
 
-<details> <summary><h3>Ürün Durumu: Ekran Görüntüleri</h3></summary>
+<details> <summary><h3>Scrreenshot</h3></summary>
   
 - https://github.com/user-attachments/assets/f555f746-6fd3-4ef6-beab-a281479d479c 
 - ![image](https://github.com/user-attachments/assets/1ffb42ea-0a6c-4a03-984a-f71b42c55732)
