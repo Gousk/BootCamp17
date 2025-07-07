@@ -29,7 +29,7 @@
 - **Tahmin Edilen Tamamlanacak Puan**: 200 Puan
 
 - **Tahmin mantığı**:
-Sprint başında 225 puanlık iş backlog’a alındı.Puanlama balogların zorluğuna göre yapıldı.Puanlar Trello'ya eklendi.
+Sprint başında 225 puanlık iş backlog’a alındı.Puanlama görevlerin zorluğuna göre yapıldı.Puanlar Trello'ya eklendi.
 
 1.hafta sonunda 35 puanlık iş tamamlandı.
 
