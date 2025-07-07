@@ -44,7 +44,7 @@ Sprint sonunda  145 puan tamamlandı, 30 puan rejected.
 link:https://trello.com/invite/b/6855b183a654f8e5ec559f3d/ATTI62ecc82dba9f1124149afb21c83ea097C32EEA8F/bootcamp-process
 
 
-<details> <summary><h3>Scrreenshot</h3></summary>
+<details> <summary><h3>Screenshot</h3></summary>
   
 - https://github.com/user-attachments/assets/f555f746-6fd3-4ef6-beab-a281479d479c 
 - ![image](https://github.com/user-attachments/assets/1ffb42ea-0a6c-4a03-984a-f71b42c55732)
