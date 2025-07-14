@@ -1676,7 +1676,6 @@ MonoBehaviour:
   ragdollRoot: {fileID: 9023557326909531175}
   inverts:
   - arm
-  - leg
 --- !u!1 &1884689039
 GameObject:
   m_ObjectHideFlags: 0
