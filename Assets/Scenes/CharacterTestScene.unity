@@ -1654,7 +1654,7 @@ MonoBehaviour:
   mouseSensitivity: 3
   minPitch: -45
   maxPitch: 45
-  cameraDistance: 5
+  cameraDistance: 3
   cameraHeight: 2
   smoothSpeed: 10
   moveForce: 90
