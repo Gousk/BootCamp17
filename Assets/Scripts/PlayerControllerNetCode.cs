@@ -1,7 +1,7 @@
-﻿using System.Globalization;
-using UnityEngine;
+﻿using UnityEngine;
+using Unity.Netcode;
 
-public class PlayerController : MonoBehaviour
+public class PlayerControllerNetCode : NetworkBehaviour
 {
     [Header("References")]
     public Rigidbody hipRigidbody;    // RagdollRoot/Hips Rigidbody
@@ -35,9 +35,8 @@ public class PlayerController : MonoBehaviour
     Quaternion hipInitTargetRot;
     Quaternion stomachInitTargetRot;
 
-    private void Start()
+    public override void OnNetworkSpawn()
     {
-
         Cursor.lockState = CursorLockMode.Locked;
 
         // align our yaw accumulator
@@ -46,10 +45,21 @@ public class PlayerController : MonoBehaviour
         // cache the joints' initial targetRotation
         if (hipJoint != null) hipInitTargetRot = hipJoint.targetRotation;
         if (stomachJoint != null) stomachInitTargetRot = stomachJoint.targetRotation;
+
+        if (!IsOwner)
+        {
+            // Disable the camera for non-local players (optional, but recommended)
+            if (playerCamera != null)
+                playerCamera.enabled = false;
+            // Optionally, disable audio listener, UI, etc. here
+            return;
+        }
     }
 
     void Update()
     {
+        if (!IsOwner) return;
+
         // read raw mouse deltas
         float deltaX = Input.GetAxis("Mouse X") * mouseSensitivity;
         float deltaY = Input.GetAxis("Mouse Y") * mouseSensitivity;
@@ -71,6 +81,8 @@ public class PlayerController : MonoBehaviour
 
     void LateUpdate()
     {
+        if (!IsOwner) return;
+
         // follow the hip position
         Vector3 hipPos = hipRigidbody.position;
         yawPivot.position = hipPos;
@@ -97,6 +109,8 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
+        if (!IsOwner) return;
+
         // get movement input
         float h = Input.GetAxis("Horizontal");
         float v = Input.GetAxis("Vertical");
