@@ -66,4 +66,44 @@ link:https://trello.com/invite/b/6855b183a654f8e5ec559f3d/ATTI62ecc82dba9f112414
   - Görevlerin takibinin daha kolay yapılması adına deadlineların sıklaştırılmasına karar verildi.
   - Takım tebrik edildi ve çalışmaları için teşekkür edildi.
   
+# 2. Sprint 
+
+- **Sprint Notları**: 1. sprintte konuşulan tasarılar büyük ölçüde gerçekleştirildi. Performansı arttırmak adına geçmiş sprintte alınan kararlar hayata geçirildi ve olumlu etkiler gözlemlendi.
+
+- **Tahmin Edilen Tamamlanacak Puan**: 
+
+- **Tahmin mantığı**:
+
+
+
+
+- **Daily Scrum**: https://imgur.com/a/K6fkFzD
+
+- **Sprint Board Updates**: Sprint board screenshot: 
+<img width="1917" height="924" alt="image" src="https://github.com/user-attachments/assets/125a688c-90a8-4936-a3a2-ddad9d7616c3" />
+
+link:https://trello.com/invite/b/6855b183a654f8e5ec559f3d/ATTI62ecc82dba9f1124149afb21c83ea097C32EEA8F/bootcamp-process
+
+
+<details> <summary><h3>Screenshot</h3></summary>
+  
+
+
+
+
+  </details>
+
+- **Sprint Review**: 
+  - Ek mekanikler çoğunlukla tamamlandı.
+  - Haritalar çevre tasarımlarıyla beraber tamamlandı.
+  - Multiplayer yazılımlarında büyük ölçüde ilerlendi.
+  - UI tasarımı yapıldı.
+    
+
+- **Sprint Retrospective:**
+  - Toplantılar 3 günde bir olacak şekilde yapıldı. Performansı olumlu etkiledi.
+  - Multiplayer yazılımları beklendiğinden daha çok vakit aldığı için tahmin edilen puana ulaşılamadı. 
+  - Proje scopeunun revize edilmesine karar verildi.
+  - Görevlerin takibinin daha kolay yapılması adına deadlineların sıklaştırılması performansı arttırdı.
+  - Takım tebrik edildi ve çalışmaları için teşekkür edildi.
   
