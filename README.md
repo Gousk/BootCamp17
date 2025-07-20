@@ -93,6 +93,10 @@ link:https://trello.com/invite/b/6855b183a654f8e5ec559f3d/ATTI62ecc82dba9f112414
   
 
 <img width="1001" height="670" alt="image" src="https://github.com/user-attachments/assets/d810a12f-d3ad-40c9-8b72-88c8bdfff985" />
+<img width="1003" height="666" alt="image" src="https://github.com/user-attachments/assets/aacd21e5-c20d-4b18-9a32-ee838f0ebf9f" />
+<img width="1000" height="662" alt="image" src="https://github.com/user-attachments/assets/8fa60b91-5865-492f-bc81-c5b11eec7e2a" />
+<img width="1003" height="667" alt="image" src="https://github.com/user-attachments/assets/c9f31ce5-e84f-49ea-b705-7934904e4a7e" />
+<img width="1000" height="659" alt="image" src="https://github.com/user-attachments/assets/2451cc92-4836-4323-9bd6-78278220a5b8" />
 
 
 
