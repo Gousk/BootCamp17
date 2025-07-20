@@ -68,14 +68,18 @@ link:https://trello.com/invite/b/6855b183a654f8e5ec559f3d/ATTI62ecc82dba9f112414
   
 # 2. Sprint 
 
-- **Sprint Notları**: 1. sprintte konuşulan tasarılar büyük ölçüde gerçekleştirildi. Performansı arttırmak adına geçmiş sprintte alınan kararlar hayata geçirildi ve olumlu etkiler gözlemlendi.
+- **Sprint Notları**: İkinci sprintte odak noktası, belirlenen oyun fikrinin prototipine yönelik somut adımlar atmaktı. Bu doğrultuda çevre tasarımı, ek oyun mekanikleri, temel UI ve multiplayer altyapısı üzerinde çalışıldı. 
 
-- **Tahmin Edilen Tamamlanacak Puan**: 
+- **Tahmin Edilen Tamamlanacak Puan**: 500
 
 - **Tahmin mantığı**:
+  Sprint başında 550 puanlık iş backlog’a alındı.Puanlama görevlerin zorluğuna göre yapıldı.Puanlar Trello'ya eklendi.  
 
+  1.hafta sonunda 115 puanlık iş tamamlandı.
 
+  2.hafta sonunda 175 puanlık iş tamamlandı.
 
+  Sprint sonunda  290 puan tamamlandı, 20 puan rejected.
 
 - **Daily Scrum**: https://imgur.com/a/K6fkFzD
 
@@ -88,6 +92,7 @@ link:https://trello.com/invite/b/6855b183a654f8e5ec559f3d/ATTI62ecc82dba9f112414
 <details> <summary><h3>Screenshot</h3></summary>
   
 
+<img width="1001" height="670" alt="image" src="https://github.com/user-attachments/assets/d810a12f-d3ad-40c9-8b72-88c8bdfff985" />
 
 
 
