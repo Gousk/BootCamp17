@@ -49,6 +49,11 @@ public class RagdollMotionMatcher : MonoBehaviour
 
     void FixedUpdate()
     {
+        //UpdateJoints();
+    }
+
+    public void UpdateJoints()
+    {
         foreach (var m in jointMaps)
         {
             // 1) Animated world → ragdoll-parent local

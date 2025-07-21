@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/NetCodeTest.unity
-    guid: adaf39c31b95a5841aa7e27dd64ac23a
+    path: Assets/Scenes/Fusion2Test.unity
+    guid: dd31d782322a2ea4db3a0f2f486edfce
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
