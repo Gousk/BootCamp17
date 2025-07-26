@@ -1,4 +1,5 @@
-﻿using Fusion;
+﻿using ExitGames.Client.Photon.StructWrapping;
+using Fusion;
 using Fusion.Addons.Physics;
 using System.Globalization;
 using UnityEngine;
@@ -42,6 +43,7 @@ public class PlayerControllerFusion : NetworkBehaviour, IPlayerLeft
     // store the joints' starting rotations so we can apply mouse deltas on top
     Quaternion hipInitTargetRot;
     Quaternion stomachInitTargetRot;
+
 
     private void Start()
     {
@@ -174,11 +176,28 @@ public class PlayerControllerFusion : NetworkBehaviour, IPlayerLeft
             else
                 animator.SetBool("isMoving", false);
 
-            motionMatcher.UpdateJoints();
+            for (int i = 0; i < motionMatcher.jointMaps.Count; i++)
+            {
+                motionMatcher.UpdateJoint(i);
+            }
+            //motionMatcher.UpdateJoints();
 
             if (transform.position.y < -10)
             {
                 networkRigidbody3D.Teleport(Vector3.zero, Quaternion.identity);
+            }
+        }
+    }
+
+    public override void Render()
+    {
+        if(!Object.HasStateAuthority)
+        {
+            var interpolated = new NetworkBehaviourBufferInterpolator(this);
+
+            for (int i = 0;i < motionMatcher.jointMaps.Count; i++)
+            {
+                motionMatcher.jointMaps[i].joint.targetRotation = Quaternion.Slerp(motionMatcher.jointMaps[i].joint.targetRotation, motionMatcher.networkedPhysicsSyncedRotations.Get(i), interpolated.Alpha);
             }
         }
     }

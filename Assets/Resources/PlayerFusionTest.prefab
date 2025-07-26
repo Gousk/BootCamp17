@@ -3742,6 +3742,7 @@ MonoBehaviour:
   ragdollRoot: {fileID: 4268537323387607277}
   inverts:
   - arm
+  isNetworked: 1
 --- !u!114 &6959540458968668642
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3773,11 +3774,6 @@ MonoBehaviour:
   moveForce: 90
   maxSpeed: 3
   rotationSpeed: 10
-  jumpForce: 8
-  groundMask:
-    serializedVersion: 2
-    m_Bits: 1
-  groundCheckDistance: 0.3
 --- !u!114 &8631156144911301702
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -3988,7 +3988,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d252ad32438b3204688ac0e1b4b0ca83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ShowTopMostFoldoutHeaderGroup: 1
   hipRigidbody: {fileID: 2547161399309639383}
   ragdollRoot: {fileID: 9067563713178320537}
   yawPivot: {fileID: 91971789206585112}
@@ -4006,6 +4005,11 @@ MonoBehaviour:
   moveForce: 90
   maxSpeed: 3
   rotationSpeed: 10
+  jumpForce: 5
+  groundCheckDistance: 1.1
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 1
 --- !u!114 &280900151915679135
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4022,6 +4026,7 @@ MonoBehaviour:
   ragdollRoot: {fileID: 5743264304248777476}
   inverts:
   - arm
+  isNetworked: 0
 --- !u!1 &7693992793362958728
 GameObject:
   m_ObjectHideFlags: 0

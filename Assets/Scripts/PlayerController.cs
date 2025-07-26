@@ -28,8 +28,14 @@ public class PlayerController : MonoBehaviour
     public float maxSpeed = 5f;
     public float rotationSpeed = 10f;
 
+    [Header("Jump Settings")]
+    public float jumpForce = 5f;
+    public float groundCheckDistance = 1.1f;
+    public LayerMask groundLayer;
+
     float yaw;
     float pitch;
+    bool isGrounded;
 
     // store the joints' starting rotations so we can apply mouse deltas on top
     Quaternion hipInitTargetRot;
@@ -37,7 +43,6 @@ public class PlayerController : MonoBehaviour
 
     private void Start()
     {
-
         Cursor.lockState = CursorLockMode.Locked;
 
         // align our yaw accumulator
@@ -97,6 +102,9 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
+        // Ground Check
+        isGrounded = Physics.Raycast(hipRigidbody.position, Vector3.down, groundCheckDistance, groundLayer);
+
         // get movement input
         float h = Input.GetAxis("Horizontal");
         float v = Input.GetAxis("Vertical");
@@ -127,6 +135,12 @@ public class PlayerController : MonoBehaviour
                 moveDir * moveForce * Time.fixedDeltaTime,
                 ForceMode.VelocityChange
             );
+        }
+
+        // Jump
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
+        {
+            hipRigidbody.AddForce(Vector3.up * jumpForce, ForceMode.VelocityChange);
         }
 
         // clamp horizontal speed

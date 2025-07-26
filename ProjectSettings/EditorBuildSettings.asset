@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Fusion2Test.unity
-    guid: dd31d782322a2ea4db3a0f2f486edfce
+    path: Assets/Scenes/Fusion/FusionMPTestScene.unity
+    guid: 64187173820088e41b63a8d026d760dc
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
