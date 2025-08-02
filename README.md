@@ -116,3 +116,46 @@ link:https://trello.com/invite/b/6855b183a654f8e5ec559f3d/ATTI62ecc82dba9f112414
   - Görevlerin takibinin daha kolay yapılması adına deadlineların sıklaştırılması performansı arttırdı.
   - Takım tebrik edildi ve çalışmaları için teşekkür edildi.
   
+# 3. Sprint 
+
+- **Sprint Notları**: Üçüncü sprintte eksik kalan birkaç ufak özelliğin eklenmesi ve multiplayer yazılımın tamamlanması ile oyunun tamamlanması hedeflendi. 
+
+- **Tahmin Edilen Tamamlanacak Puan**: 200
+
+- **Tahmin mantığı**:
+  Sprint başında 230 puanlık iş backlog’a alındı.Puanlama görevlerin zorluğuna göre yapıldı.Puanlar Trello'ya eklendi.  
+
+  1.hafta sonunda 92 puanlık iş tamamlandı.
+
+  2.hafta sonunda 128 puanlık iş tamamlandı.
+
+  Sprint sonunda  210 puan tamamlandı, 20 puan rejected.
+
+- **Daily Scrum**:
+
+- **Sprint Board Updates**: Sprint board screenshot: 
+
+
+link:https://trello.com/invite/b/6855b183a654f8e5ec559f3d/ATTI62ecc82dba9f1124149afb21c83ea097C32EEA8F/bootcamp-process
+
+
+<details> <summary><h3>Screenshot</h3></summary>
+  
+
+
+
+
+  </details>
+
+- **Sprint Review**: 
+  - Oynanabilir karakterler güncellendi.
+  - Oyun müzikleri eklendi.
+  - Multiplayer yazılımları tamamlandı.
+  - UI yazılımı tamamladı.
+    
+
+- **Sprint Retrospective:**
+  - Toplantılar 5 günde bir olacak şekilde yapıldı.
+  - . 
+  - Proje scopeu büyük ölçüde küçültüldü.
+  - Takım tebrik edildi ve çalışmaları için teşekkür edildi.
