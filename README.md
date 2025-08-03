@@ -135,6 +135,7 @@ link:https://trello.com/invite/b/6855b183a654f8e5ec559f3d/ATTI62ecc82dba9f112414
 
 - **Sprint Board Updates**: Sprint board screenshot: 
 
+<img width="1438" height="710" alt="image" src="https://github.com/user-attachments/assets/f13d1983-e200-4a83-8474-e6e6f1623bfd" />
 
 link:https://trello.com/invite/b/6855b183a654f8e5ec559f3d/ATTI62ecc82dba9f1124149afb21c83ea097C32EEA8F/bootcamp-process
 
@@ -156,6 +157,5 @@ link:https://trello.com/invite/b/6855b183a654f8e5ec559f3d/ATTI62ecc82dba9f112414
 
 - **Sprint Retrospective:**
   - Toplantılar 5 günde bir olacak şekilde yapıldı.
-  - . 
   - Proje scopeu büyük ölçüde küçültüldü.
   - Takım tebrik edildi ve çalışmaları için teşekkür edildi.
