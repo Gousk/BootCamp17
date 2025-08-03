@@ -131,7 +131,8 @@ link:https://trello.com/invite/b/6855b183a654f8e5ec559f3d/ATTI62ecc82dba9f112414
 
   Sprint sonunda  210 puan tamamlandı, 20 puan rejected.
 
-- **Daily Scrum**:
+- **Daily Scrum**: https://imgur.com/a/pw1fDlH
+  https://docs.google.com/spreadsheets/d/1PaGv0e5-qaz9MGRs8nyhd3FC2nYyqRz8esFXPWuLJd0/edit?usp=sharing
 
 - **Sprint Board Updates**: Sprint board screenshot: 
 
@@ -142,6 +143,10 @@ link:https://trello.com/invite/b/6855b183a654f8e5ec559f3d/ATTI62ecc82dba9f112414
 
 <details> <summary><h3>Screenshot</h3></summary>
   
+<img width="244" height="134" alt="image" src="https://github.com/user-attachments/assets/b5d8660e-191b-4c96-933a-bb928cee13af" />
+<img width="1002" height="647" alt="image" src="https://github.com/user-attachments/assets/5a1aa4e6-3543-49c2-8f1c-367b4cc54238" />
+<img width="962" height="544" alt="image" src="https://github.com/user-attachments/assets/764892e3-12bc-4ef8-a177-05871b365712" />
+<img width="957" height="541" alt="image" src="https://github.com/user-attachments/assets/320b106e-9e35-4ecb-a745-f32a899eb758" />
 
 
 
